@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.anime-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.anime-item img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.anime-title {
+  font-size: 16px;
+  margin: 10px 0;
+}
